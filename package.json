@@ -2,7 +2,7 @@
   "name": "goit-react-hw-02-phonebook",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://zerkel1991.github.io/goit-react-hw-03-image-finder/",
+  "homepage": "https://zerkel1991.github.io/goit-react-hw-05-movies/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
@@ -15,6 +15,7 @@
     "react-dom": "^18.1.0",
     "react-icons": "^4.4.0",
     "react-loader-spinner": "^5.2.0",
+    "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "react-toastify": "^9.0.8",
     "sass": "^1.54.4",

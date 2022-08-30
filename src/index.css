@@ -27,13 +27,25 @@ img {
   max-width: 100%;
   height: auto;
 }
+.Nav{
+  display: flex;
+  align-items: center;
+  height: 40px;
+  border-bottom: 2px solid black;
 
-/*
- * Стили компонента App
- */
-.App {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 16px;
-  padding-bottom: 24px;
+}
+.NavLink{
+font-size: 20px;
+padding: 8px 16px;
+border-radius: 4px;
+text-decoration: none;
+color: black;
+font-weight: 500;
+
+}
+
+
+.active{
+  color: white;
+  background-color: orangered;
 }
