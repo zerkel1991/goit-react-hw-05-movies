@@ -1,0 +1,18 @@
+.movieContainer{
+display: flex;
+margin-top: 20px;
+
+}
+
+.infoContainer{
+  margin-left: 10px;
+}
+
+.movieText{
+  margin-right: 10px;
+}
+
+.outLink{
+margin-right: 15px;
+
+}
