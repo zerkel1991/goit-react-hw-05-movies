@@ -6,7 +6,7 @@ import SearchForm from 'components/SearchForm/SearchForm';
 
 const Movies = () => {
   const [query, setQuery] = useState('');
-  const [findMovies, setFindMovies] = useState([]);
+  const [findMovies, setFindMovies] = useState('');
   const [searchParams,setSearchParams] = useSearchParams();
 
 searchParams.get('');
@@ -18,8 +18,16 @@ searchParams.get('');
     }
     fetchQueryMovies(query)
       .then(result => {
-        setFindMovies(result.data.results);
+        if(findMovies.length < 1){
+          alert('Не найдено')
+
+        }else{
+          setFindMovies(result.data.results);
+        }
+
+
       })
+
       .catch(error => console.log(error));
   }, [query]);
 
